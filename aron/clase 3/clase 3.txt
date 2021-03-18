@@ -1,0 +1,67 @@
+prec,prod,iva=real
+
+nombpr:cadena
+
+
+inicio 
+escribir:('dijite el nombre de su produucto')
+leer:nombpr
+escribir:('dijite el valor de su producto')
+leer:prod
+iva<=((19/100)*prod)
+prec<=prod+iva
+escribir=('el iva del procto es',iva)
+escribir:('el valor con el iva es',prec)
+fin
+
+
+prueba de escritorio
+
+
+prod     iva     prec
+10 000   1 900   11900
+
+*************************************************************************************************************************************************************
+
+nom_pro = cadena
+pre_pro,pre_fin,des=real
+
+
+inicio 
+escribir:('dijite el nombre de su produucto')
+leer:nom_pro
+escribir:('dijite el valor de su producto')
+leer:pre_pro
+des<=0.1*pre_pro
+pre_fin<=pre_pro-des
+escribir=('el nombre de su producto es',nom_pro)
+escribir=('el descuento es',des)
+escribir:('el valor con el des es',pre_fin)
+fin
+
+prueba de escritorio
+
+nom_pro  pre_pro   des   pre_fin    
+juan      5 000     500    4 500 
+
+******************************************************************************************************************************************************************
+
+
+nom_cli:cadena
+dia1,dia2,dia3,prome:real
+
+
+inicio
+escribir:('dijite del nombre del cliente')
+leer:nom_cli
+escribir:('dijite el valor de su compra del dia uno')  
+leer:dia1
+escribir:('dijite el valor de su compra del dia dos')  
+leer:dia2
+escribir:('dijite el valor de su compra del dia tres')
+leer:dia3
+prome<=((dia1+dia2+dia3)/3)
+escribir(nom_cli,'tiene un promedio en compras de',prome)
+fin 
+
+  

@@ -1,0 +1,153 @@
+1.	Se desea un algoritmo que lea de 2 números y realice la operación en función a la opción escogida: Suma(S), Resta(R),
+ Multiplicación (M) y División (D), se debe visualizar el resultado de la operación. 
+
+
+algorimo 
+n1,n2,suma,resta,producto,divicion:real
+
+inicio
+escribir:('dijite el primer valor')
+leer:(n1)
+escribir:('dijite el sugundo valor')
+leer:(n2)
+suma<=n1+2
+resta<=n1-n2
+producto<=n1*n2
+divicion<=n1/n2
+escribir:('el resultado es',suma,resta,producto,divicion)
+fin
+
+prueba de escritorio 
+
+n1   n2     suma  resta  producto  divicion 
+10   10      20     0      100          1
+
+
+*********************************************************************************************************************************************************************************************************************************************
+
+2.	Elabore un algoritmo que lea un número y obtenga su cuadrado.
+
+n1,cuadrado=real
+
+inicio 
+escribir:('dijite el numero que quiera elevar al cuadrado')
+leer:n1
+cuadrado<=n1**2
+escribir:('el resultado es',cuadrado)
+fin
+
+
+prueba de escritorio 
+
+n1    cuadrado
+5         25
+
+
+**************************************************************************************************************************************************************************************************************************************************
+
+3.	Elabore un algoritmo que lea las variables A y B y pase el valor de A y B a una variable C
+
+vara,varb,varc:alfanumerico
+
+inicio
+escribir:('dijite su primer nombre')
+leer:(vara)
+escribir:('dijite su segundo nombre')
+leer:(varb)
+varc<=vara_barb
+escribir:(varc)
+fin
+
+prueba de escritorio 
+
+vara  varb   varc
+juan  pablo  juan_pablo
+
+*********************************************************************************************************************
+
+4.Dado el radio de un círculo. Realizar un algoritmo que obtenga el área del círculo y la longitud de
+ la circunferencia.
+
+area,rad,long,pi=real
+
+escribir:('deijite el radio')
+leer:rad
+pi<=3.14
+area<=(pi*(rad**2))
+long<=2*pi*rad
+escribir:('el area del circulo es',area)
+escribir:('la longitud del circulo es',long)
+fin
+
+preuba de escritorio 
+
+
+rad  area  long 
+2    12.56  12.56
+*******************************************************************************************************************
+5.	Dado los 3 lados de un triángulo, realice un algoritmo que encuentre el área del triángulo.  
+
+area,base,altura:real
+
+
+inicio
+escribir:('escriba la altura')
+leer:altura
+escribir:('escriba la base')
+leer:base
+area<=((base*altura)/2)
+escribir:('el area es ',area)
+fin
+
+
+prueba de escritorio
+
+base    altura  area
+ 2         5      5
+
+
+************************************************************************************************************************
+
+6.	Realizar un algoritmo que lea un número entero y calcule el cubo de ese número. 
+
+
+n1,cubo=entero
+
+
+inicio
+escribir:('dijite el numero')
+leer:n1
+cubo<=n1**3
+escribir=('su cubo es',cubo)
+fin
+
+
+prueba de escritorio
+
+n1   cubo
+2      8
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

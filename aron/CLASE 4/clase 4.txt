@@ -1,0 +1,86 @@
+algoritmo 
+
+
+nom= CADENA
+ed=entero 
+
+
+inicio
+
+escribir:("dijite su nombre")
+leer:nom
+escribir:("dijite su edad")
+leer:ed
+si(ed>=18)entoces 
+escribir(nom,"ya es mayor de edad")
+sino
+escribir(nom,"sigue siendo menor de edad")
+fin_si
+fin
+
+nom      ed      resultado
+juan     18    juan ya es mayor de 
+*******************************************************************************************************************************************************
+
+
+num1=real
+
+
+inicio
+escribir:("dijite su numero")
+leer:num1
+si(num1>=0)entoces 
+escribir(num1,"es positivo")
+sino
+escribir(num1,"negativo")
+fin_si 
+fin
+
+
+
+inicio
+escribir:("dijite su numero")
+leer:num1
+
+si(num1>0)entoces 
+escribir(num1,"es positivo")
+sino 
+si (num1=0)entoces 
+escribir(num1,"es neutro")
+sino 
+si (num1<0)entoces 
+escribir(num1,"es menor")
+fin_si
+fin_si
+fin_si
+fin
+
+*********************************************************
+num1,num2,suma,mult,div=real
+
+
+incio
+escribir:("dijite su numero")
+leer:num1
+escribir:("dijite su numero")
+leer:num2
+suma=num1+num2
+si(suma<=50)entoces
+div=num1/num2
+escrbir:("la divicion es",div)
+sino
+mult=num1*num2
+escrbir:("la multiplicacion es",mult)
+fin_si
+fin
+*****************************************************
+
+
+
+
+
+
+
+
+
+

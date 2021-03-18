@@ -1,0 +1,57 @@
+algoritmos recuenciales
+
+algorimo 
+n1,n2,suma,resta,producto,divicion:real
+
+inicio
+escribir('dijite el primer valor')
+leer(n1)
+escribir('dijite el sugundo valor')
+leer(n2)
+suma<=n1+2
+resta<=n1-n2
+producto<=n1*n2
+divicion<=n1/n2
+escribir('el resultado es',suma,resta,producto,divicion)
+fin
+
+prueba de escritorio 
+
+n1   n2     suma  resta  producto  divicion 
+10   10      20     0      100          1
+**************************************************************************************************************
+algoritsmo
+alt   bas   supe:real
+
+inicio
+escribir('dijite la altura')
+leer(alt)
+éscribir('dijite la base ')
+leer(bas)
+supe<=alt*bas
+escribir('el resultado es',supe)
+
+prueba de escritorio
+
+alt  bas  supe
+10    10  100
+5      5   25
+
+***********************************************************
+
+algoritmo
+
+Rad   supe   pi:real
+
+
+inicio escribir('dijite el radio')
+leer(rad)
+pi=3,1416
+supe<=pi*rad**2
+escribir('la superfie es',supe)
+fin
+
+
+prueba de escritorio
+pi       rad supe
+ 3,1416   2    12,5664

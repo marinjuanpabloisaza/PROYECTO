@@ -1,0 +1,104 @@
+
+
+ cod,nh,vah,sal:numerico 
+nom:caracter 
+
+
+
+inicio 
+escribir:('dijite codigo del empleado')
+leer:cod
+escribir:('dijite codigo el nombre')
+leer:nom
+escribir:('dijite numero de horas trabajadas')
+leer:nh
+escribir:('dijite el valor de horas trabajadas')
+leer:vah
+sal<=vah*nh
+escribir:('el codigo del trabajador es',cod)
+escribir:('el nombre del trabajador es',nom)
+escribir:('el salario del trabajador es',sal)
+fin
+
+
+prueba de escritorio
+
+
+nom     cod    nh vah       sal
+juan    00001   3  10000   30000
+
+
+
+*******************************************************************************************************************
+edad,feact,fena:numerico
+
+inicio 
+escribir:('dijite nu fecha de nacimiento')
+leer:fena
+escribir:('escribir fecha actual')
+leer:feact
+edad<=feact-fena
+escribir('su edad es ',edad)
+fin
+
+prueba de escritorio
+
+feact  fena  edad
+2021    2002  19
+
+**********************************************************************************************************************
+
+n1,n2,n3,nf:real
+nom:caracter
+
+inicio 
+escribir:('dijite su nombre completo')
+leer=nom
+escribir:('dijite su primera nota')
+leer=n1
+escribir:('dijite su segunda nota')
+leer=n2
+escribir:('dijite su tercera nota')
+leer=n3
+nf<=(n1+n2+n3)/3
+escribir('la nota de',nom,'es',nf)
+fin
+
+prueba de escritorio
+
+nom    n1   n2    n3    nf
+juan  5.0   4.1  3.0    4.3
+**********************************************************************************************************************
+n1,n2,n3,n4,prom:numerico
+
+inicio 
+escribir:('dijite el primer numero')
+leer=n1
+escribir:('dijite el segundo numero')
+leer=n2
+escribir:('dijite el tercer numero')
+leer=n3
+escribir:('dijite el cuarto numero')
+leer=n4
+prom<=(n1+n2+n3+n4)/4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
